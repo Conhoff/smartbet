@@ -1,0 +1,132 @@
+// Place all the styles related to the landing_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.banner {
+  height: 540px;
+  background: url("../assets/sb_3.jpg") no-repeat 5% 5%;
+  background-attachment: fixed;
+  background-size: 130% auto;
+  box-shadow: inset 0 0 8px #333;
+}
+
+#container-banner {
+  padding: 40px 0;
+  color: white;
+  .center {
+    img {
+      margin-top: -58px;
+      width: 400px;
+    }
+    p {
+      font-size: 24px;
+      text-shadow: 0 1px 18px rgba(0,0,0,.5);
+      padding: 0 5%;
+      color: #f5f5f5;
+    }
+  }
+  .left {
+    color: #f5f5f5;
+    h1 {
+      font-size: 44px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+  }
+}
+
+section {
+  min-height: 300px;
+}
+
+#logo {
+  padding: 30px;
+  width: 400px;
+  height: 400px;
+}
+
+#event-info {
+  background: url("../assets/suits_bg2.jpg");
+  .film {
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,.5);
+  }
+  .container {
+    padding: 50px 0;
+  }
+  .well {
+    padding: 20px;
+    color: grey;
+  }
+  h1, h2, h3, h4 {
+    text-align: center;
+  }
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  p {
+    text-align: center;
+    padding: 0 5%;
+    font-size: 16px;
+  }
+  img {
+    margin-top: -80px;
+  }
+  .center {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+#kids {
+  color: #f8f8f8;
+  box-shadow: inset 0 0 8px #333;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 22px;
+  height: 400px;
+  .film {
+    background: rgba(0, 140, 0, 0.55);
+    height: 400px;
+    width: 100%;
+  }
+  h2 {
+    margin-bottom: 70px;
+    font-size: 38px;
+  }
+  p {
+    font-size: 16px;
+    font-size: 18px;
+    float: right;
+    margin-bottom: 30px;
+  }
+}
+#sponsors {
+    .container {
+      text-align: center;
+    }
+    img {
+      margin: 30px;
+    }
+  }
+  
+.tourney-info {
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    color: grey;
+    margin-left: 10px;
+ }
+ #about {
+   background: url("../assets/suits_bg2.jpg");
+   padding: 100px 40px 40px 40px;
+ }
+ #contact {
+   background: url("../assets/suits_bg2.jpg");
+   padding: 100px 40px 40px 40px;
+ }
+ #charities {
+   background: url("../assets/suits_bg2.jpg");
+   padding: 100px 40px 40px 40px;
+ }
+  
