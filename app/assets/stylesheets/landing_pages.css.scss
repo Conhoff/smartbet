@@ -79,6 +79,10 @@ section {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  .btn {
+    width: 260px;
+    margin-top: 30px;
+  }
 }
 #kids {
   color: #f8f8f8;
@@ -120,10 +124,12 @@ section {
  #about {
    background: image-url("suits_bg2.jpg");
    padding: 100px 40px 40px 40px;
+   margin-bottom: 130px;
  }
  #contact {
    background: image-url("suits_bg2.jpg");
    padding: 100px 40px 40px 40px;
+   margin-bottom: 130px;
    p {
      font-size: 16px;
    }
@@ -131,5 +137,6 @@ section {
  #charities {
    background: image-url("suits_bg2.jpg");
    padding: 100px 40px 40px 40px;
+   margin-bottom: 130px;
  }
   
