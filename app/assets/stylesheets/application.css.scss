@@ -71,14 +71,14 @@ header {
 
 footer {
 	background: #888;
-	height: 100px;
 	color: #f8f8f8;
+	height: 130px;
 	span {
-	  padding: 30px 0;
+	  padding: 20px 0;
     display: inline-block;
 	}
 	a {
-	  color: #f5f5f5;
+	  color: #ddd;
 	}
 	a:hover {
 	  color: #ccc;
@@ -86,7 +86,7 @@ footer {
 	.container {
 	  padding: 0px;
 	  ul {
-	    padding: 30px 0;
+	    padding: 20px 0;
 	    margin:0;
 	    float: right;
 	    list_style: none;
@@ -96,6 +96,11 @@ footer {
 	      display: inline-block;
 	    }
 	    
+	  }
+	  div {
+	    display: inline-block;
+	    float: right;
+	    margin: 30px 20px 0 0;
 	  }
 	}
 }
