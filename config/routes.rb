@@ -57,6 +57,7 @@ Rails.application.routes.draw do
   match '/about', to: 'landing_pages#about', :via => [:get, :post]
   match '/charities', to: 'landing_pages#charities', :via => [:get, :post]
   match '/contact', to: 'landing_pages#contact', :via => [:get, :post]
+  match '/results', to: 'landing_pages#results', :via => [:get, :post]
   
   root :to => 'landing_pages#home', :as => :root
 end
