@@ -123,25 +123,37 @@ section {
  }
  #about {
    background: image-url("suits_bg2.jpg");
-   padding: 100px 40px 40px 40px;
+   padding: 90px 0 0 0;
    margin-bottom: 130px;
+   h2 {
+     margin-top: 0;
+   }
  }
  #contact {
    background: image-url("suits_bg2.jpg");
-   padding: 100px 40px 40px 40px;
+   padding: 90px 0 0 0;
    margin-bottom: 130px;
+   h2 {
+     margin-top: 0;
+   }
    p {
      font-size: 16px;
    }
  }
  #charities {
    background: image-url("suits_bg2.jpg");
-   padding: 100px 40px 40px 40px;
+   padding: 90px 0 0 0;
    margin-bottom: 130px;
+   h2 {
+     margin-top: 0;
+   }
  }
  
  #results {
    background: image-url("suits_bg2.jpg");
-   padding: 100px 40px 40px 40px;
+   padding: 90px 0 0 0;
    margin-bottom: 130px;
+   h2 {
+     margin-top: 0;
+   }
  } 

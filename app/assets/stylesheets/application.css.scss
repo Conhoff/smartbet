@@ -128,3 +128,24 @@ footer {
 .H100 {
   height: 100px;
 }
+
+.film {
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,.5);
+    padding: 40px;
+  }
+
+/********** Begin Responsive CSS  **********/
+
+@media screen and (min-width:10px) and (max-width:1101px)  { 
+  .container {
+    width: 94%;
+    margin: auto;
+  }
+}
+
+
+
+
+
