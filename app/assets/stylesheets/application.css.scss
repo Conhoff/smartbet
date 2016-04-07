@@ -172,6 +172,14 @@ footer {
     margin-top: 15px;
   }
   h2 {font-size: 24px;}
+  #footer {height: auto; position: static;}
+  .container.page {padding: 50px 0 0 0;
+    .film {float: left;}
+  }
+  
+  #contact .film {
+    padding-top: 20px;
+  }
   
 }
 
@@ -203,11 +211,11 @@ footer {
   #sponsors img:first-child {
     margin: 10px auto;
   }
-  #footer {height: auto; position: static;}
+  
   h3 {font-size: 20px;}
   .container.page {
     padding: 50px 0 0 0; width: 100%;
-    .film {float: left; padding-bottom: 30px; padding-top: 30px;
+    .film {float: left; padding:30px 4%;
       h1 {margin-top: 0; font-size: 30px;}
     }
     }

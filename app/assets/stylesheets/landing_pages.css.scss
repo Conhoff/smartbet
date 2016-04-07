@@ -124,6 +124,9 @@ section {
  .container.page {
    padding: 90px 0 0 0;
    margin-bottom: 130px;
+   .film {
+     padding: 10px 40px 40px 40px;
+   }
  }
  #about {
    background: image-url("suits_bg2.jpg");
@@ -132,6 +135,7 @@ section {
    }
  }
  #contact {
+   .film {padding-top: 30px;}
    background: image-url("suits_bg2.jpg");
    h2 {
      margin-top: 0;
