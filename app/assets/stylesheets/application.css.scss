@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  *= require_landing_pages
+ *= require_responsive
  */
 
 @import "bootstrap";
@@ -138,11 +139,80 @@ footer {
 
 /********** Begin Responsive CSS  **********/
 
-@media screen and (min-width:10px) and (max-width:1101px)  { 
+@media screen and (max-width:1101px)  { 
   .container {
     width: 94%;
     margin: auto;
   }
+}
+
+@media screen and (max-width:1080px){
+ #container-banner .center p {padding: 20px 3%;}
+ .banner {background-size: auto}
+ header .container ul li {
+    margin-right: 30px;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  
+}
+
+@media screen and (max-width:700px){
+  header .container img {display: none}
+  header .container ul {
+    text-align: center;
+    float: none;
+    padding: 15px 0;
+    li:last-child {margin-right: 0;}
+    }
+  .film {padding-top: 0;}  
+  #event-info img {margin-top: 0;}
+  .tourney-info {
+    margin-top: 15px;
+  }
+  h2 {font-size: 24px;}
+  
+}
+
+@media screen and (max-width:400px){
+  
+  #container-banner .center img {
+    margin-top: -36px;
+    width: 280px;
+    }
+  header .container ul li {font-size: 10px; margin-right: 20px;}
+  .banner {height: auto}
+  #container-banner {padding-bottom: 20px;}
+  #container-banner .center p {
+    font-size: 18px;
+  }
+  .film {padding: 0 4%;}
+  #event-info .container {padding: 30px 0;}
+  #event-info .well {font-size: 14px;}
+  #kids {height: auto;}
+  #kids .container {
+    padding: 20px 0;
+    h2 {text-align: center; font-size: 30px; margin-bottom: 50px;}
+    p {font-size: 16px; text-align: center;}
+  }
+  #sponsors img {
+    max-width: 280px;
+    margin: 30px auto;
+  }
+  #sponsors img:first-child {
+    margin: 10px auto;
+  }
+  #footer {height: auto; position: static;}
+  h3 {font-size: 20px;}
+  .container.page {
+    padding: 50px 0 0 0; width: 100%;
+    .film {float: left; padding-bottom: 30px; padding-top: 30px;
+      h1 {margin-top: 0; font-size: 30px;}
+    }
+    }
+  .btn-lg {margin: auto; display: block;}
+  
 }
 
 
